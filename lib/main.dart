@@ -5,6 +5,7 @@ import 'my_colors.dart';
 import 'home_page.dart';
 import 'new_teacher.dart';
 import 'teacher_list.dart';
+import 'new_student.dart';
 
 // import plugins here
 import 'package:flutter_svg/flutter_svg.dart';
@@ -90,7 +91,7 @@ class _LoginDemoState extends State<LoginDemo> {
                 onPressed: () {
                   // login();
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (_) => const TeacherList()));
+                      MaterialPageRoute(builder: (_) => const NewStudent()));
                 },
                 child: const Text(
                   'Login',
