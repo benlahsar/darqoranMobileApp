@@ -12,7 +12,7 @@ class TeacherList extends StatefulWidget {
   const TeacherList({Key? key}) : super(key: key);
 
   @override
-  _TeacherListState createState() => _TeacherListState();
+  State<TeacherList> createState() => _TeacherListState();
 
   Widget build(BuildContext context) {
     return const MaterialApp(

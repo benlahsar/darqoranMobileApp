@@ -7,7 +7,7 @@ class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
-  _HomePageState createState() => _HomePageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
         child: IconTheme(
           data: IconThemeData(color: Theme.of(context).colorScheme.onPrimary),
           child: Row(
-            children: <Widget>[
+            children: [
               ElevatedButton.icon(
                   onPressed: () {},
                   label: const Text('Menu'),

@@ -7,7 +7,7 @@ class LoginDemo extends StatefulWidget {
   const LoginDemo({super.key});
 
   @override
-  _LoginDemoState createState() => _LoginDemoState();
+  State<LoginDemo> createState() => _LoginDemoState();
 }
 
 class _LoginDemoState extends State<LoginDemo> {
@@ -20,11 +20,11 @@ class _LoginDemoState extends State<LoginDemo> {
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
-          children: <Widget>[
+          children: [
             Padding(
               padding: const EdgeInsets.only(top: 60.0),
               child: Center(
-                  child: Container(
+                  child: SizedBox(
                       width: 200,
                       height: 150,
                       child: SvgPicture.asset('asset/images/quran.svg'))),
