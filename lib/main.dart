@@ -6,12 +6,18 @@ import 'home_page.dart';
 import 'new_teacher.dart';
 import 'teacher_list.dart';
 import 'new_student.dart';
+import 'firebase_options.dart';
 
 // import plugins here
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:http/http.dart' as http;
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

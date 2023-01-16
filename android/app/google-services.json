@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1067151543098",
+    "project_id": "darqoran-app",
+    "storage_bucket": "darqoran-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067151543098:android:5299b20c8dd79bc8a61e03",
+        "android_client_info": {
+          "package_name": "com.example.darqoran_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067151543098-5qvacfht6pqt5hl2rs6octu3aap1q9u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0znQ-_GpYJvKw2Yw13dr8iH82FTReI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067151543098-5qvacfht6pqt5hl2rs6octu3aap1q9u4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1067151543098-082tgukdkit1fskje5dpblj3ucg9urfq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.darqoranApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

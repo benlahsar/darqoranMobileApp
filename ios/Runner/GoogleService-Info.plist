@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1067151543098-082tgukdkit1fskje5dpblj3ucg9urfq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1067151543098-082tgukdkit1fskje5dpblj3ucg9urfq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD35VKWj80byaimwAONEZ4XiocxAKCtTCU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1067151543098</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.darqoranApp</string>
+	<key>PROJECT_ID</key>
+	<string>darqoran-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>darqoran-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1067151543098:ios:1c1362e913667d52a61e03</string>
+</dict>
+</plist>
