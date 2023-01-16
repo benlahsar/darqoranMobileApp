@@ -3,7 +3,7 @@ import 'package:darqoran_app/service/remote_service.dart';
 import 'package:flutter/material.dart';
 
 // Import file here
-import 'my_colors.dart';
+import '../colors/my_colors.dart';
 
 // Import plugins here
 // import 'package:http/http.dart' as http;

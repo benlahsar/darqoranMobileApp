@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 // import file here
-import 'my_colors.dart';
-import 'home_page.dart';
-import 'new_teacher.dart';
-import 'teacher_list.dart';
-import 'new_student.dart';
+import 'colors/my_colors.dart';
+import 'home/home_page.dart';
+import 'teacher/new_teacher.dart';
+import 'teacher/teacher_list.dart';
+import 'student/new_student.dart';
 import 'firebase_options.dart';
 
 // import plugins here

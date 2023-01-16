@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // import file here
-import 'my_colors.dart';
+import '../colors/my_colors.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
