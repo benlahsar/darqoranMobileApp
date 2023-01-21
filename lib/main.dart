@@ -1,3 +1,4 @@
+import 'package:darqoran_app/auth/signup.dart';
 import 'package:darqoran_app/student/student_list.dart';
 import 'package:flutter/material.dart';
 
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'QurApp',
       home: const LoginDemo(),
       routes: {
         "home": (context) => const HomePage(),
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         "new teacher": (context) => const ListTeacher(),
         "student list": (context) => const StudentList(),
         "teacher list": (context) => const TeacherList(),
+        "login": (context) => const LoginDemo(),
+        "signup": (context) => const Signup(),
       },
     );
   }
