@@ -64,7 +64,6 @@ class DisplayData extends StatelessWidget {
     return Card(
       child: Expanded(
         child: ListTile(
-          leading: Image.asset("images/logo.png"),
           title: Text("${data["name"]}"),
           subtitle: Text(
               "${data["name"]} has ${data["age"]} years and born in ${data["byear"]}"),

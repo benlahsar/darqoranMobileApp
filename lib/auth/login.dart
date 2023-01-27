@@ -2,8 +2,8 @@ import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-// import 'package:flutter_svg/flutter_svg.dart';
-import '../colors/my_colors.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+// import '../colors/my_colors.dart';
 
 class LoginDemo extends StatefulWidget {
   const LoginDemo({super.key});
@@ -46,9 +46,9 @@ class _LoginDemoState extends State<LoginDemo> {
           ).show();
         }
       }
-    } else {
-      print('not valid');
-    }
+    } // else {
+    //   print('not valid');
+    // }
   }
 
   @override
@@ -56,12 +56,6 @@ class _LoginDemoState extends State<LoginDemo> {
     return Scaffold(
       body: ListView(
         children: [
-          // Center(
-          //     child: Image.asset(
-          //    "images/quran.svg",
-          //    height: 200,
-          // )
-          // ),
           Container(
             padding: const EdgeInsets.all(20),
             child: Form(
